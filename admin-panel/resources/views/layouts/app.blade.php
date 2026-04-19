@@ -13,13 +13,13 @@
 
         @include('partials.head-assets')
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+    <body class="font-sans antialiased text-slate-100">
+        <div class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
             @include('layouts.navigation')
 
             <!-- Page Heading -->
             @isset($header)
-                <header class="bg-white shadow">
+                <header class="border-b border-slate-800/80 bg-slate-900/85 shadow-xl shadow-slate-950/20 backdrop-blur-md">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
                     </div>
